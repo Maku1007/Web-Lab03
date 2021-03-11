@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ICSI301 Лаборатори #3</title>
+</head>
+<body>
+    <h1>School Calander 2021</h1>
+
+    <div class="buttons">
+        <button id="btn_prev" disabled>Өмнөх сар</button>
+        <button id="btn_next">Дараах сар</button>
+    </div>
+
+    <div class="container">
+        <div id="month-1" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">JANUARY 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="special_all">1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-2" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">FEBRUARY 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="special_all">1</td>
+                    <td>2</td>
+                    <td id="special_all">3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td id="special_2">17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-3" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">MARCH 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td id="special_all">2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td id="special_all">6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td id="special_all">8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-4" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">APRIL 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="special_all">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-5" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">MAY 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td id="special_all">10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-6" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">JUNE 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td id="special_all">6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-7" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">JULY 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td id="special_all">4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-8" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">AUGUST 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="special_all">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-9" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">SEPTEMBER 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="special_all">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-10" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">OCTOBER 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td id="special_all">13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-11" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">NOVEMBER 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td id="special_all">2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="month-12" class="calanderDiv">
+            <table>
+                <tr>
+                    <th colspan="7">DECEMBER 2021</th>
+                </tr>
+                <tr>
+                    <td id="week">Sun</td>
+                    <td id="week">Mon</td>
+                    <td id="week">Tue</td>
+                    <td id="week">Wed</td>
+                    <td id="week">Thu</td>
+                    <td id="week">Fri</td>
+                    <td id="week">Sat</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td id="special_all">20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td id="special_all">30</td>
+                    <td>31</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>    
+
+    <div class="input_value">
+        <input type="text" id="txt" name="txt">
+        <button id="btnClick">Get Value</button>
+    </div>
+
+    <div class="container_json">
+        <div class="jsonDiv">
+            <table>
+                <tr>
+                    <th colspan="4">Fublic and School Activities 2021 </th>
+                </tr>
+                <tr>
+                    <td>01 January</td>
+                    <td id="jan-1"></td>
+                    <td>06 June</td>
+                    <td id="jun-6"></td>
+                </tr>
+                <tr>
+                    <td>01 February</td>
+                    <td id="feb-1"></td>
+                    <td>04 July</td>
+                    <td id="jul-4"></td>
+                </tr>
+                <tr>
+                    <td>03 February</td>
+                    <td id="feb-3"></td>
+                    <td>01 August</td>
+                    <td id="aug-1"></td>
+                </tr>
+                <tr>
+                    <td>17 February</td>
+                    <td id="feb-17"></td>
+                    <td>25 August</td>
+                    <td id="aug-25"></td>
+                </tr>
+                <tr>
+                    <td>02 March</td>
+                    <td id="mar-2"></td>
+                    <td>01 September</td>
+                    <td id="sep-1"></td>
+                </tr>
+                <tr>
+                    <td>06 March</td>
+                    <td id="mar-6"></td>
+                    <td>13 October</td>
+                    <td id="oct-13"></td>
+                </tr>
+                <tr>
+                    <td>08 March</td>
+                    <td id="mar-8"></td>
+                    <td>02 November</td>
+                    <td id="nov-2"></td>
+                </tr>
+                <tr>
+                    <td>01 April</td>
+                    <td id="apr-1"></td>
+                    <td>20 December</td>
+                    <td id="dec-20"></td>
+                </tr>
+                <tr>
+                    <td>10 May</td>
+                    <td id="may-10"></td>
+                    <td>30 December</td>
+                    <td id="dec-30"></td>
+                </tr>
+            </table>    
+        </div>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
