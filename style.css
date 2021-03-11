@@ -1,0 +1,124 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container div {
+  width: 800px;
+  height: auto;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+
+.buttons :hover {
+  background-color: #e7e7e7;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.24),
+    0 15px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calanderDiv {
+  display: none;
+}
+
+#month-1 {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container th,
+td {
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.container th {
+  height: 40px;
+  background-color: #e5e8e8;
+  font-family: "Courgette", cursive;
+}
+
+.container td {
+  width: 50px;
+  height: 30px;
+}
+
+.container td:nth-child(6n-5) {
+  background-color: #fdf5e6;
+}
+
+#week {
+  background-color: #ffe4c4;
+}
+
+#special_all {
+  background-color: #f4d03f;
+}
+
+.input_value {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 400px;
+}
+
+.container_json {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.container_json div {
+  width: 800px;
+  height: auto;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.container_json th {
+  height: 30px;
+  background-color: #e5e8e8;
+  font-family: "Courgette", cursive;
+  border: 1px solid gray;
+}
+
+.container_json td {
+  border: 1px solid gray;
+  height: 20px;
+  text-align: center;
+}
+
+.container_json td:nth-child(odd) {
+  width: 120px;
+  background-color: #fdf5e6;
+  font-family: "Courgette", cursive;
+}
+
+.container_json td:nth-child(even) {
+  width: 410px;
+  font-family: "Scheherazade", serif;
+  text-align: justify;
+  padding: 3px 10px 3px 10px;
+}
